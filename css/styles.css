@@ -84,7 +84,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #c9c5ba;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -600,8 +600,9 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .img-thumbnail {
@@ -11582,16 +11583,15 @@ header.masthead .masthead-heading {
 }
 .timeline > li .timeline-image {
   position: absolute;
-  z-index: 100;
-  left: 0;
-  width: 80px;
-  height: 80px;
-  margin-left: 0;
-  text-align: center;
-  color: white;
-  border: 7px solid #e9ecef;
-  border-radius: 100%;
-  background-color: #ffc800;
+    z-index: 100;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    background-color: #f7f7f7f7;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11844,4 +11844,20 @@ section#contact form#contactForm :-ms-input-placeholder {
     height: 385px;
     
 }
+}
+
+/* Bulles à propose */
+
+.ko {
+  width: 100%;
+  height: auto;
+}
+
+/* Prestation placement */
+
+#portfolio > div > div.row {
+  background-color: #c9c5ba;
+    /* padding: 18px; */
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
